@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var nilai = prompt("Masukan Nilai Yang Kamu Dapatkan");
+        var grade = "";
+
+        if (nilai >= 90) grade = "A"
+        else if (nilai >= 89) grade = "B"
+        else if (nilai >= 79) grade = "C"
+        else if (nilai >= 69) grade = "D"
+        else if (nilai >= 59) grade = "E"
+        else grade = "E"
+
+        document.write(`Nilai Kamu ${nilai}`);
+        document.write(` Nilai Yang Kamu Dapatkan Adalah ${grade}`);
+    </script>
+</body>
+    
+</html>
